@@ -192,7 +192,7 @@ func comparePrerelease(a, b []string) int {
 			}
 		}
 	}
-	return cmpInt(len(b), len(a))
+	return cmpInt(len(a), len(b))
 }
 
 // compareNumeric 比较两个无前导零的非负整数字符串：先比长度，再按字典序。
